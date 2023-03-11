@@ -35,3 +35,12 @@ Ejercicios de refactorización
 Principio DRY
 
 Esta sección procura que empecemos a escribir código que sea fácil de leer por nosotros y otros desarrolladores.
+
+### Principio DRY - Dont Repeat Yourself
+
+#### "Si quieres ser un programador productivo esfuérzate en escribir código legible"
+
+- Simplemente es evitar tener duplicidad de código
+- Simplifica las pruebas
+- Ayuda a centralizar procesos
+- Aplicar principio DRY, usualmente lleva a refactorizar
