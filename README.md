@@ -16,6 +16,9 @@ yarn dev
 ó
 npm run dev
 ```
+
+# Sección 2: Clean Code y Deuda técnica
+
 ## Temas puntuales de la sección
 
 En esta sección estaremos hablando y haciendo ejercicios sobre:
@@ -44,3 +47,11 @@ Esta sección procura que empecemos a escribir código que sea fácil de leer po
 - Simplifica las pruebas
 - Ayuda a centralizar procesos
 - Aplicar principio DRY, usualmente lleva a refactorizar
+
+# Sección 3: Clean Code - Clases y comentarios
+
+## Temas puntuales de la sección
+En esta sección hablaremos principalmente sobre clases y conceptos generales para escribir un mejor código.
+
+Es importante tener presente que así como todo, hay excepciones a cada regla, pero esto debería ser un caso aislado y no el estándar. Tratemos de escribir un mejor código y dejar de lado la comodidad de hacer las cosas como se han venido haciendo, especialmente si esas cosas traen muchos problemas.
+
