@@ -56,3 +56,11 @@ En esta sección hablaremos principalmente sobre clases y conceptos generales pa
 
 Es importante tener presente que así como todo, hay excepciones a cada regla, pero esto debería ser un caso aislado y no el estándar. Tratemos de escribir un mejor código y dejar de lado la comodidad de hacer las cosas como se han venido haciendo, especialmente si esas cosas traen muchos problemas.
 
+# Sección 4: Acrónimo STUPID
+
+## Temas puntuales de la sección
+
+Esta es una sección corta y mayormente explicativa, en donde hablaremos sobre varios "code smells".
+
+La idea es evitar a toda costa estos puntos que hacen que nuestro código pierda calidad.
+
