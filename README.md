@@ -72,3 +72,7 @@ La idea es evitar a toda costa estos puntos que hacen que nuestro código pierda
 * Premature optimization -> optimizaciones prematuras
 * Indescriptive Naming -> nombres poco descriptivos
 * Duplication -> duplicaidad de código, no aplicar principio DRY
+
+# Wiki
+
+* [Refactoring Gurú](https://refactoring.guru/)
