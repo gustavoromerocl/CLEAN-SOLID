@@ -64,3 +64,11 @@ Esta es una sección corta y mayormente explicativa, en donde hablaremos sobre v
 
 La idea es evitar a toda costa estos puntos que hacen que nuestro código pierda calidad.
 
+## CodeSmells - STUPID
+
+* Singleton -> patrón Singleton
+* Tight Coupling -> alto acoplamiento
+* Unestability -> código no probable
+* Premature optimization -> optimizaciones prematuras
+* Indescriptive Naming -> nombres poco descriptivos
+* Duplication -> duplicaidad de código, no aplicar principio DRY
