@@ -170,7 +170,7 @@ Cada principio básicamente cuenta de 3 partes, una exposición, un ejercicio y 
 - Interface Integration: Segregación de interfaz
 - Dependency inversión: Inversión de dependencias
 
-## SRP - Responsabilidad única
+## SRP - Principio de responsabilidad única
 
 **"Nunca debería haber más de un motivo por el cual cambiar una clase o un módulo. Robert C. Martin"**  
 **"tener una única clase !== hacer una única cosa"**  
@@ -194,7 +194,7 @@ Es un principio que depende mucho del contexto.
 - Cambios normalmente afectan nuestra clase o módulo.
 - Cuando una clase o módulo afecta muchas capas. (Presentación, almacenamiento, etc)
 
-## Substitución de Liskov
+## Principio de substitución de Liskov
 
 **Las funciones que utilicen punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo. Robert C.Martin**    
 **Siendo U un subtipo de T, cualquier instancia de T debería poder ser sustituida por cualquier instancia de U sin alteras las propiedades del sistema**
