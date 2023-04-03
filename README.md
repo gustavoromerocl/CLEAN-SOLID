@@ -104,7 +104,7 @@ Se refiere a cuán relacionadas o dependientes son dos clases o módulos entre s
 
 #### Cohesión
 
-- La cohesipón se refiere a lo que la clase (o módulo) puede hacer.
+- La cohesión se refiere a lo que la clase (o módulo) puede hacer.
 - La baja cohesión significaría qie la clase realiza una gran variedad de acciones: es amplia, no se enfoca en lo que debe hacer.
 . alta cohesión significa que la clase de enfoca en lo que de bevería estar  haciendo , es decir, solo métodos relacionados con la intención de la clase.
 
@@ -174,6 +174,21 @@ Cada principio básicamente cuenta de 3 partes, una exposición, un ejercicio y 
 
 **"Nunca debería haber más de un motivo por el cual cambiar una clase o un módulo. Robert C. Martin"**  
 **"tener una única clase !== hacer una única cosa"**  
+
+### SRP - Detectar violaciones
+
+- Nombres de clases y módulos demasiado genéricos.
+- Cambios en el código suelen afectar la clase o módulo.
+- La clase involucra múltiplea capas.
+- Número elevado de importaciones.
+- Cantidad elevada de métodos públicos.
+- Exceso nṕumero de líneas de código.
+
+## OCP - Principio de abierto y cerrado
+Es un principio que depende mucho del contexto.
+
+**Establece que las entidades de software (clases, módulos, métodos, etc) deben estar abiertas para la extensión, pero cerradas para la modificación**
+
 
 # Wiki
 
