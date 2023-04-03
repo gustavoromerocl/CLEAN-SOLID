@@ -189,6 +189,19 @@ Es un principio que depende mucho del contexto.
 
 **Establece que las entidades de software (clases, módulos, métodos, etc) deben estar abiertas para la extensión, pero cerradas para la modificación**
 
+### OCP - Detectar violaciones
+
+- Cambios normalmente afectan nuestra clase o módulo.
+- Cuando una clase o módulo afecta muchas capas. (Presentación, almacenamiento, etc)
+
+## Substitución de Liskov
+
+**Las funciones que utilicen punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo. Robert C.Martin**    
+**Siendo U un subtipo de T, cualquier instancia de T debería poder ser sustituida por cualquier instancia de U sin alteras las propiedades del sistema**
+
+
+
+
 
 # Wiki
 
