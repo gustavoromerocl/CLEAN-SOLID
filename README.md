@@ -162,6 +162,19 @@ En esta sección hablaremos al fin sobre los principios S.O.L.I.D.
 
 Cada principio básicamente cuenta de 3 partes, una exposición, un ejercicio y cómo detectar violaciones al principio, algunos son bastante obvios y otros tienen un poco más de complejidad, pero no dejen que los nombres los asusten, son fáciles de comprender con la práctica.
 
+### SOLID
+
+- Single Responsability: Responsabilidad única
+- Open and Close: Abierto y cerrado
+- Liskov Substitution: Sustitución de Liskov
+- Interface Integration: Segregación de interfaz
+- Dependency inversión: Inversión de dependencias
+
+## SRP - Responsabilidad única
+
+**"Nunca debería haber más de un motivo por el cual cambiar una clase o un módulo. Robert C. Martin"**  
+**"tener una única clase !== hacer una única cosa"**  
+
 # Wiki
 
 * [Refactoring Gurú](https://refactoring.guru/)
