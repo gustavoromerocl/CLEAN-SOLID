@@ -203,6 +203,10 @@ Es un principio que depende mucho del contexto.
 
 **Los clientes no deberían estar obligados a depender de interfaces que no utilicen. Robert C. Martin**
 
+### ISP - Detectar violaciones
+
+- Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad única y substitución de Liskov.
+- 
 
 # Wiki
 
