@@ -206,7 +206,33 @@ Es un principio que depende mucho del contexto.
 ### ISP - Detectar violaciones
 
 - Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad única y substitución de Liskov.
-- 
+
+## Principio de inversión de dependencias
+
+**"Los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones. Las abstracciones no deben depender de concreciones. Los detalles deben depender de abstracciones. Robert C.Martin"**
+
+- Los módulos de alto nivel no deberían depender de módulos de bajo nivel.
+- Ambos deberían depender de abstracciones.
+- Las abstracciones no deberían depender de detalles.
+- Los detalles deberían depender de abstracciones.
+
+Los componentes más importantes son aquellos centrados en resolver el problema subyacente al negocio, es decir la capa de dominio.
+
+### Depender de abstracciones
+Nos estamos refiriendo a clases abstractas o interfaces.
+
+**Uno de los motivos más importantes por el cual las reglas de negocio o capa de dominio deben depender de estas y no de concresiones es que aumenta su tolerancia al cambio**
+
+### ¿Por qué obtenemos ese beneficio?
+
+Cada cambio en un componente abstracto implica un cambio en su implementación.    
+Por el contrario, los cambios en implementaciones concretas, la mayoría de las veces, no requieren cambios en las interfaces que implementa.
+
+### Inyección de dependencias
+
+Dependencia en programación, significa que un módulo o componente requiere de otro para poder realizar su trabajo.    
+**"En algún momento nuestro programa o aplicación llegará a estas formado por muchois módulos. Cuando esto pase, es cuando debemos usar inyección de dependencias."**
+
 
 # Wiki
 
