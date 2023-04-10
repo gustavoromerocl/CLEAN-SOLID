@@ -199,8 +199,9 @@ Es un principio que depende mucho del contexto.
 **Las funciones que utilicen punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo. Robert C.Martin**    
 **Siendo U un subtipo de T, cualquier instancia de T debería poder ser sustituida por cualquier instancia de U sin alteras las propiedades del sistema**
 
+## Principio de segregación de interfaz
 
-
+**Los clientes no deberían estar obligados a depender de interfaces que no utilicen. Robert C. Martin**
 
 
 # Wiki
